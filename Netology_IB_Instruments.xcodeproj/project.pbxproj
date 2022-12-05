@@ -13,6 +13,10 @@
 		3A2A6BBF293BC839006FC62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A6BBD293BC839006FC62C /* Main.storyboard */; };
 		3A2A6BC1293BC83A006FC62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A6BC0293BC83A006FC62C /* Assets.xcassets */; };
 		3A2A6BC4293BC83A006FC62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A6BC2293BC83A006FC62C /* LaunchScreen.storyboard */; };
+		3A2A6BEC293CC251006FC62C /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A6BEB293CC251006FC62C /* ProfileView.xib */; };
+		3A2A6BEE293E2365006FC62C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A6BED293E2365006FC62C /* ProfileView.swift */; };
+		3A2A6BF2293E54B9006FC62C /* StoryboardProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A6BF1293E54B9006FC62C /* StoryboardProfileView.storyboard */; };
+		3A2A6BF4293E7913006FC62C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A6BF3293E7913006FC62C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3A2A6BC0293BC83A006FC62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2A6BC3293BC83A006FC62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A2A6BC5293BC83A006FC62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2A6BEB293CC251006FC62C /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		3A2A6BED293E2365006FC62C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3A2A6BF1293E54B9006FC62C /* StoryboardProfileView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardProfileView.storyboard; sourceTree = "<group>"; };
+		3A2A6BF3293E7913006FC62C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				3A2A6BC0293BC83A006FC62C /* Assets.xcassets */,
 				3A2A6BC2293BC83A006FC62C /* LaunchScreen.storyboard */,
 				3A2A6BC5293BC83A006FC62C /* Info.plist */,
+				3A2A6BED293E2365006FC62C /* ProfileView.swift */,
+				3A2A6BEB293CC251006FC62C /* ProfileView.xib */,
+				3A2A6BF1293E54B9006FC62C /* StoryboardProfileView.storyboard */,
+				3A2A6BF3293E7913006FC62C /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2A6BF2293E54B9006FC62C /* StoryboardProfileView.storyboard in Resources */,
+				3A2A6BEC293CC251006FC62C /* ProfileView.xib in Resources */,
 				3A2A6BC4293BC83A006FC62C /* LaunchScreen.storyboard in Resources */,
 				3A2A6BC1293BC83A006FC62C /* Assets.xcassets in Resources */,
 				3A2A6BBF293BC839006FC62C /* Main.storyboard in Resources */,
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2A6BEE293E2365006FC62C /* ProfileView.swift in Sources */,
 				3A2A6BBC293BC839006FC62C /* ViewController.swift in Sources */,
+				3A2A6BF4293E7913006FC62C /* ProfileViewController.swift in Sources */,
 				3A2A6BB8293BC839006FC62C /* AppDelegate.swift in Sources */,
 				3A2A6BBA293BC839006FC62C /* SceneDelegate.swift in Sources */,
 			);
